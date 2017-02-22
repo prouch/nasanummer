@@ -1,0 +1,46 @@
+/* CSS Document */
+body, html {
+	height: 100%;
+}
+
+body {
+	background: #564337;
+	color: white;
+	display: flex;
+}
+.container {
+	width: 800px;
+	flex-direction: column;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+form div {
+	display: flex;
+}
+form input[type='text'] {
+	display: flex;
+	flex: 1 1;
+	height: 50px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	border: 3px solid white;
+	outline: none;
+}
+form button {
+	border: 3px solid white;
+	box-sizing: border-box;
+	width: 100px;
+	cursor: pointer;
+}
+h1 {
+	font-size: 63px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 20px 0px;
+}
