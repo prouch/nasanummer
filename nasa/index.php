@@ -6,6 +6,7 @@
 		header('Location:https://www.ah.nl/producten/product/ah'.$number);
 	}
 ?>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>nasanummer zoeken.</title>
